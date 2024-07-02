@@ -11,7 +11,6 @@ import com.gestiondesconsultations.backend.repository.CRUDinterfaces.PatientInte
 import com.gestiondesconsultations.backend.repository.JPAinterfaces.PatientJPA;
 
 @Repository
-@SuppressWarnings("unchecked")
 public class PatientDAO implements PatientInterface {
     @Autowired
     private PatientJPA patientJPA;

@@ -11,7 +11,6 @@ import com.gestiondesconsultations.backend.repository.CRUDinterfaces.Consultatio
 import com.gestiondesconsultations.backend.repository.JPAinterfaces.ConsultationJPA;
 
 @Repository
-@SuppressWarnings("unchecked")
 public class ConsultationDAO implements ConsultationInterface {
     @Autowired
     private ConsultationJPA consultationJPA;

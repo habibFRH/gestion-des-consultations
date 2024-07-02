@@ -11,7 +11,6 @@ import com.gestiondesconsultations.backend.repository.CRUDinterfaces.DoctorInter
 import com.gestiondesconsultations.backend.repository.JPAinterfaces.DoctorJPA;
 
 @Repository
-@SuppressWarnings("unchecked")
 public class DoctorDAO implements DoctorInterface {
     @Autowired
     private DoctorJPA doctorJPA;

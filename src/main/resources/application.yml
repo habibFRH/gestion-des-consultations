@@ -10,7 +10,7 @@ spring:
   main:
     web-application-type: servlet
   datasource:
-    url: jdbc:postgresql://localhost:5432/gestion_des_consultations
+    url: jdbc:postgresql://localhost:5232/clinic
     username: MohamedFrh
     password: khouyafiras28
   
